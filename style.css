@@ -1,0 +1,284 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5dfff;
+    margin: 0; 
+    padding: 20px;
+    
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-title {
+    font-family: 'Caveat', cursive;
+    font-size: 90px;
+    font-weight: bold;
+    padding-left: 60px;
+    margin: 0;
+    color:#383838;
+    
+}
+
+.hero-text {
+    font-family: 'Marcellus SC', serif;
+    padding-left: 65px;
+    text-align: justify;
+    margin-top: 20px;
+    color: #505050;
+
+}
+
+.hero-button {
+    margin-top: 20px;
+    margin-left: 60px; 
+    padding: 20px 40px; 
+    background-color: #c76ff0;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #ad00b3;
+    color:#fff;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.featured-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the section */
+    margin-top: 40px;
+}
+
+.featured-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured-title h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    color: #383838;
+    margin: 0;
+}
+
+.featured-title p {
+    font-size: 16px;
+    color: #505050;
+}
+
+.main-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    position: relative; 
+}
+
+.card-image {
+    border-radius: 50% 50% 0 0; 
+    overflow: hidden; 
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card-caption {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card:nth-child(1) {
+    background-color: #d3f6ff;
+}
+
+.card:nth-child(2) {
+    background-color: #eedfff;
+}
+
+.card:nth-child(3) {
+    background-color: #e1ffed;
+}
+
+
+.hot-deal-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fdf1ff;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.hot-deal-content {
+    flex: 1;
+}
+
+.hot-deal-title {
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 200px;
+}
+
+.hot-deal-text {
+    font-family: 'Marcellus SC', serif;
+    margin-top: 10px;
+    padding-left: 200px;
+}
+.hot-deal-title span {
+    color: #ce34a0;
+}
+.hot-deal-button {
+    margin-top: 20px;
+    margin-left: 400px;
+    padding: 20px 40px;
+    background-color: #3b0030;
+    color: #d6d6d6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hot-deal-image img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 300px;
+}
+
+
+.get-deals-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./rsrc/Rectangle 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  
+  .get-deals-content {
+    text-align: center;
+  }
+  
+  .get-deals-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #383838;
+  }
+  
+  .get-deals-description {
+    font-size: 16px;
+    color: #505050;
+    margin-top: 10px;
+  }
+  
+  .get-deals-form {
+    margin-top: 20px;
+  }
+  
+  .get-deals-input {
+    padding: 10px 20px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .get-deals-button {
+    padding: 10px 20px;
+    background-color: #ca89ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .footer {
+    background-color: #222222;
+    color: #dfdfdf;
+    padding: 100px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .footer-title {
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #c681ff;
+  }
+  
+  .footer-description {
+    margin-top: 10px;
+    color: #979797;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    color: #313131;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
